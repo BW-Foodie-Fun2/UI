@@ -3,6 +3,12 @@
   flex-direction: row;
   margin-bottom: 3%;
 }
+.navigation h2 {
+  display: none;
+}
+.navigation i {
+  display: none;
+}
 .sign-up {
   margin-left: 10%;
   margin-right: 30%;
@@ -43,6 +49,33 @@
 }
 .what a {
   color: #ECB847;
+}
+/* Mobile */
+.navigation {
+  /* Primary/Tuscany */
+  width: 100%;
+  background: #C45228;
+}
+.navigation h2 {
+  display: inline;
+  color: #ECB847;
+  margin-right: 30%;
+  margin-left: 27%;
+}
+.navigation i {
+  display: inline;
+  margin-right: 2%;
+  margin-left: 1%;
+  margin-top: 5%;
+}
+.navigation .sign-up {
+  display: none;
+}
+.navigation .what {
+  display: none;
+}
+.navigation .why {
+  display: none;
 }
 .main-text h3 {
   /* Heading/H3 Regular */
