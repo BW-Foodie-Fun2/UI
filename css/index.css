@@ -10,9 +10,10 @@
   display: none;
 }
 .sign-up {
+  display: inline;
   margin-left: 10%;
   margin-right: 30%;
-  font-family: Archivo Narrow;
+  font-family: 'ArchivoNarrowRegular';
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -26,7 +27,7 @@
 .why {
   margin-right: 30%;
   /* Body / B3-18 px Medium 2 */
-  font-family: Archivo Narrow;
+  font-family: 'ArchivoNarrowRegular';
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -39,7 +40,7 @@
 }
 .what {
   /* Body / B3-18 px Medium 2 */
-  font-family: Archivo Narrow;
+  font-family: 'ArchivoNarrowRegular';
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -51,37 +52,39 @@
   color: #ECB847;
 }
 /* Mobile */
-.navigation {
-  /* Primary/Tuscany */
-  width: 100%;
-  background: #C45228;
-}
-.navigation h2 {
-  display: inline;
-  color: #ECB847;
-  margin-right: 30%;
-  margin-left: 27%;
-}
-.navigation i {
-  display: inline;
-  margin-right: 2%;
-  margin-left: 1%;
-  margin-top: 5%;
-}
-.navigation .sign-up {
-  display: none;
-}
-.navigation .what {
-  display: none;
-}
-.navigation .why {
-  display: none;
+@media (max-width: 500px) {
+  .navigation {
+    /* Primary/Tuscany */
+    width: 100%;
+    background: #C45228;
+    font-family: 'ArchivoNarrowRegular';
+  }
+  .navigation h2 {
+    display: inline;
+    color: #ECB847;
+    margin-right: 30%;
+    margin-left: 27%;
+  }
+  .navigation i {
+    display: inline;
+    margin-right: 2%;
+    margin-left: 1%;
+    margin-top: 5%;
+  }
+  .navigation .sign-up {
+    display: none;
+  }
+  .navigation .what {
+    display: none;
+  }
+  .navigation .why {
+    display: none;
+  }
 }
 .main-text h3 {
   /* Heading/H3 Regular */
   margin: 0%;
-  font-family: Archivo Narrow;
-  font-style: normal;
+  font-family: 'ArchivoNarrowRegular';
   font-weight: normal;
   font-size: 300%;
   line-height: 65px;
@@ -105,7 +108,7 @@
   color: #ECB847;
 }
 .main-text p {
-  font-family: Archivo Narrow;
+  font-family: 'ArchivoNarrowRegular';
   font-style: normal;
   font-weight: normal;
   font-size: 40%;
@@ -117,7 +120,7 @@
 }
 .main-text h1 {
   /* Heading/H1 72 px Medium */
-  font-family: Archivo Narrow;
+  font-family: 'ArchivoNarrowRegular';
   font-style: normal;
   font-weight: 500;
   font-size: 300%;
@@ -129,7 +132,7 @@
 }
 .closing-text h5 {
   /* Heading/H4 30px Medium */
-  font-family: Archivo Narrow;
+  font-family: 'ArchivoNarrowRegular';
   font-style: normal;
   font-weight: 500;
   font-size: 30px;
@@ -146,7 +149,7 @@
 }
 .closing-text h3 {
   /* Heading/H1 72 px Medium */
-  font-family: Archivo Narrow;
+  font-family: 'ArchivoNarrowRegular';
   font-style: normal;
   font-weight: 500;
   font-size: 300%;
