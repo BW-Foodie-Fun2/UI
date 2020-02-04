@@ -74,7 +74,7 @@
   .project-lead,
   .UI,
   .ios {
-    background-color: grey;
+    background-color: #C45228;
     margin-left: 35%;
     margin-bottom: 5%;
     border: 5px solid #ECB847;
@@ -103,7 +103,7 @@
     width: 50%;
     border-radius: 10px;
     margin-left: 23%;
-    border: 7px solid #ECB847;
+    border: 7px solid black;
   }
   .project-lead a,
   .UI a,
@@ -119,7 +119,7 @@
   }
   .back-end1,
   .front-end1 {
-    background-color: grey;
+    background-color: #C45228;
     margin-left: 17%;
     margin-bottom: 5%;
     border: 5px solid #ECB847;
@@ -145,7 +145,7 @@
     width: 50%;
     border-radius: 10px;
     margin-left: 23%;
-    border: 7px solid #ECB847;
+    border: 7px solid black;
   }
   .back-end1 a,
   .front-end1 a {
