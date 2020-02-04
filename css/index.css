@@ -177,7 +177,11 @@
   color: #ECB847;
 }
 body {
-  background: url("https://images.unsplash.com/photo-1495979830471-67a0decaa1cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+  background: url("https://images.unsplash.com/photo-1495979830471-67a0decaa1cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 /* Mobile */
 @media (max-width: 500px) {
