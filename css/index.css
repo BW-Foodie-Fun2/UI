@@ -12,7 +12,7 @@
 .sign-up {
   display: inline;
   margin-left: 10%;
-  margin-right: 30%;
+  margin-right: 20%;
   font-family: 'ArchivoNarrowRegular';
   font-style: normal;
   font-weight: 500;
@@ -51,6 +51,20 @@
 .what a {
   color: #ECB847;
 }
+.about {
+  display: inline;
+  margin-right: 20%;
+  font-family: 'ArchivoNarrowRegular';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  /* identical to box height, or 144% */
+  /* Text/Ronchi */
+}
+.about a {
+  color: #ECB847;
+}
 /* Mobile */
 @media (max-width: 500px) {
   .navigation {
@@ -78,6 +92,9 @@
     display: none;
   }
   .navigation .why {
+    display: none;
+  }
+  .navigation .about {
     display: none;
   }
 }
