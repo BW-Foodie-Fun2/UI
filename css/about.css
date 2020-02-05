@@ -159,3 +159,48 @@
     -o-background-size: cover;
     background-size: cover;
   }
+
+  /* Mobile */
+
+  @media(max-width: 500px){
+    .navigation {
+      /* Primary/Tuscany */
+      width: 100%;
+      background: #C45228;
+      font-family: 'ArchivoNarrowRegular';
+    }
+    .navigation h2 {
+      display: inline;
+      color: #ECB847;
+      margin-right: 30%;
+      margin-left: 27%;
+    }
+    .navigation i {
+      display: inline;
+      margin-right: 2%;
+      margin-left: 1%;
+      margin-top: 5%;
+    }
+    .navigation .sign-up {
+      display: none;
+    }
+    .navigation .what {
+      display: none;
+    }
+    .navigation .why {
+      display: none;
+    }
+    .navigation .home {
+      display: none;
+    }
+  
+    .project-lead,.UI,.ios {
+      width: 100%;
+      margin-left: 0;
+    }
+
+    .back-end1, .front-end1{
+      width: 100%;
+      margin-left: 0;
+    }
+  }
