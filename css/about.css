@@ -1,0 +1,206 @@
+.navigation {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3%;
+  }
+  .navigation h2 {
+    display: none;
+  }
+  .navigation i {
+    display: none;
+  }
+  .sign-up {
+    display: inline;
+    margin-left: 10%;
+    margin-right: 20%;
+    font-family: 'ArchivoNarrowRegular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height, or 144% */
+    /* Text/Ronchi */
+  }
+  .sign-up a {
+    color: #ECB847;
+  }
+  .why {
+    margin-right: 30%;
+    /* Body / B3-18 px Medium 2 */
+    font-family: 'ArchivoNarrowRegular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height, or 144% */
+    /* Text/Ronchi */
+  }
+  .why a {
+    color: #ECB847;
+  }
+  .what {
+    /* Body / B3-18 px Medium 2 */
+    font-family: 'ArchivoNarrowRegular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height, or 144% */
+    /* Text/Ronchi */
+  }
+  .what a {
+    color: #ECB847;
+  }
+  .home {
+    display: inline;
+    margin-right: 20%;
+    font-family: 'ArchivoNarrowRegular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height, or 144% */
+    /* Text/Ronchi */
+  }
+  .home a {
+    color: #ECB847;
+  }
+  /* Body */
+  .main {
+    font-size: 300%;
+    text-align: center;
+    color: #ECB847;
+  }
+  .project-lead,
+  .UI,
+  .ios {
+    background-color: #C45228;
+    margin-left: 35%;
+    margin-bottom: 5%;
+    border: 5px solid #ECB847;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+  }
+  .project-lead h1,
+  .UI h1,
+  .ios h1 {
+    text-align: center;
+    font-size: 170%;
+    color: #ECB847;
+  }
+  .project-lead h2,
+  .UI h2,
+  .ios h2 {
+    text-align: center;
+    font-size: 200%;
+    color: #ECB847;
+  }
+  .project-lead img,
+  .UI img,
+  .ios img {
+    width: 50%;
+    border-radius: 10px;
+    margin-left: 23%;
+    border: 7px solid black;
+  }
+  .project-lead a,
+  .UI a,
+  .ios a {
+    margin-left: 35%;
+    color: #ECB847;
+  }
+  .back-end h1,
+  .front-end h1 {
+    font-size: 170%;
+    text-align: center;
+    color: #ECB847;
+  }
+  .back-end1,
+  .front-end1 {
+    background-color: #C45228;
+    margin-left: 17%;
+    margin-bottom: 5%;
+    border: 5px solid #ECB847;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 65%;
+  }
+  .back-end1 h1,
+  .front-end1 h1 {
+    text-align: center;
+    font-size: 170%;
+    color: #ECB847;
+  }
+  .back-end1 h2,
+  .front-end1 h2 {
+    text-align: center;
+    font-size: 200%;
+    color: #ECB847;
+  }
+  .back-end1 img,
+  .front-end1 img {
+    width: 50%;
+    border-radius: 10px;
+    margin-left: 23%;
+    border: 7px solid black;
+  }
+  .back-end1 a,
+  .front-end1 a {
+    margin-left: 35%;
+    color: #ECB847;
+  }
+  body {
+    background: url("https://images.unsplash.com/photo-1574103419426-1c74ca4bfc3b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  /* Mobile */
+
+  @media(max-width: 500px){
+    .navigation {
+      /* Primary/Tuscany */
+      width: 100%;
+      background: #C45228;
+      font-family: 'ArchivoNarrowRegular';
+    }
+    .navigation h2 {
+      display: inline;
+      color: #ECB847;
+      margin-right: 30%;
+      margin-left: 27%;
+    }
+    .navigation i {
+      display: inline;
+      margin-right: 2%;
+      margin-left: 1%;
+      margin-top: 5%;
+    }
+    .navigation .sign-up {
+      display: none;
+    }
+    .navigation .what {
+      display: none;
+    }
+    .navigation .why {
+      display: none;
+    }
+    .navigation .home {
+      display: none;
+    }
+  
+    .project-lead,.UI,.ios {
+      width: 100%;
+      margin-left: 0;
+    }
+
+    .back-end1, .front-end1{
+      width: 100%;
+      margin-left: 0;
+    }
+  }

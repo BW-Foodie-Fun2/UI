@@ -1,0 +1,100 @@
+.navigation {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 3%;
+}
+.navigation h2 {
+  display: none;
+}
+.navigation i {
+  display: none;
+}
+.sign-up {
+  display: inline;
+  margin-left: 10%;
+  margin-right: 20%;
+  font-family: 'ArchivoNarrowRegular';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  /* identical to box height, or 144% */
+  /* Text/Ronchi */
+}
+.sign-up a {
+  color: #ECB847;
+}
+.why {
+  margin-right: 30%;
+  /* Body / B3-18 px Medium 2 */
+  font-family: 'ArchivoNarrowRegular';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  /* identical to box height, or 144% */
+  /* Text/Ronchi */
+}
+.why a {
+  color: #ECB847;
+}
+.what {
+  /* Body / B3-18 px Medium 2 */
+  font-family: 'ArchivoNarrowRegular';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  /* identical to box height, or 144% */
+  /* Text/Ronchi */
+}
+.what a {
+  color: #ECB847;
+}
+.about {
+  display: inline;
+  margin-right: 20%;
+  font-family: 'ArchivoNarrowRegular';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  /* identical to box height, or 144% */
+  /* Text/Ronchi */
+}
+.about a {
+  color: #ECB847;
+}
+/* Mobile */
+@media (max-width: 500px) {
+  .navigation {
+    /* Primary/Tuscany */
+    width: 100%;
+    background: #C45228;
+    font-family: 'ArchivoNarrowRegular';
+  }
+  .navigation h2 {
+    display: inline;
+    color: #ECB847;
+    margin-right: 30%;
+    margin-left: 27%;
+  }
+  .navigation i {
+    display: inline;
+    margin-right: 2%;
+    margin-left: 1%;
+    margin-top: 5%;
+  }
+  .navigation .sign-up {
+    display: none;
+  }
+  .navigation .what {
+    display: none;
+  }
+  .navigation .why {
+    display: none;
+  }
+  .navigation .about {
+    display: none;
+  }
+}
